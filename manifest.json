@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "同IP站点查询",
+	"description": "调用[ 站长之家 ]接口查询同IP绑定域名",
+	"homepage_url": "https://github.com/h01/SameWeb",
+	"version": "1.0",
+	"icons": {
+		"16": "images/16.png",
+		"48": "images/48.png",
+		"128": "images/128.png"
+	},
+	"browser_action": {
+		"default_icon": "images/128.png",
+		"default_popup": "popup.html",
+		"default_title": "旁站"
+	},
+	"permissions": ["tabs", "http://s.tool.chinaz.com/*"]
+}
